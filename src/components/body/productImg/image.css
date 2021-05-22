@@ -1,0 +1,13 @@
+.productImg img{
+    height: 37.5rem;
+    width: 25rem;
+    margin-left: 5rem;
+}
+
+@media (max-width: 768px) {
+    .productImg img{
+        margin: 0 auto;
+        height: 100%;
+        width: 100%;
+    }
+}

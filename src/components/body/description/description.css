@@ -1,0 +1,87 @@
+.productDescription{
+    margin-left: 4rem;
+}
+.font_arial{
+    font-family: 'Arial';
+}
+.font_medium{
+    font-size: 1.3rem;
+}
+.description_Title{
+    margin-bottom: 1rem !important;
+}
+
+.hr{
+    border-bottom: 1px solid rgb(246,245,245);
+    width: 100%;
+}
+
+.font_bold{
+    font-weight: bold;
+}
+
+.price{
+    margin: 0.4rem 0!important;
+}
+
+.font_small{
+    font-size: 0.8rem;
+}
+
+.font_light_grey{
+    color: #888888
+}
+
+.font_dark_grey{
+    color: #222222
+}
+.size_star{
+    color: #C90000;
+}
+.description{
+    margin-top: 1rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.product_size{
+    margin-bottom: 1rem;
+    margin-right: 10px;
+    height: 2.5rem;
+    width: 2.5rem !important;
+    font-size: 0.8rem;
+    line-height: 2.5rem;
+    color: #888888;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #CCCCCC;
+}
+
+.addBtn{
+    font-weight: bold;
+    color: #222222;
+    border: 1.5px solid #222222;
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.addBtn:hover{
+    cursor: pointer;
+    background-color: #222222;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.productSize_selected{
+    border: 1.5px solid #222222 !important;
+}
+@media (max-width: 768px) {
+    .productDescription{
+        margin: 0;
+    }
+    .description_Title{
+        margin-top: 2rem !important;
+    }
+    .addBtn{
+        margin-bottom: 2rem;
+    }
+}
